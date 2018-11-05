@@ -33,6 +33,7 @@
 Green LED: Drive In
 Orange LED: Slow Down
 Red LED: Stop
+
 ![process 1](https://user-images.githubusercontent.com/44767760/47995260-aa334780-e12f-11e8-92da-e02691e2b0eb.jpg)
 
 2)	Once the proximity sensors are activated (meaning that the car is at the designated spot), the LED would turn red and the washing process would begin automatically.
