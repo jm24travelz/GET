@@ -16,13 +16,20 @@
 5.	Reset Push Button
 
  ## Proposed Timeline
-•	## Week 8-9: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
+•	Week 8-9: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
 
-•	## Week 10: Complete the coding process, ensure that there are no errors in the code (flow).  At the same time start working on the mock up prototype we will need for the physical demonstration
+• Week 10: Complete the coding process, ensure that there are no errors in the code (flow).  At the same time start working on the mock up prototype we will need for the physical demonstration
 
-•	## Week 11-12: Collect data required for individual sensors through testing out the code using a working prototype. Calibrate the code to ensure it is fully functional. Work on our project documentation for the final presentation using github.com
+•	Week 11-12: Collect data required for individual sensors through testing out the code using a working prototype. Calibrate the code to ensure it is fully functional. Work on our project documentation for the final presentation using github.com
 
-•	## Week 13: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
+•	Week 13: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
 
-## How it works
+## Operation
+
+1)	The car would be directed into the washing bay, through an indication via the green LED light module. The front proximity sensors would ensure that the car is completely in the washing bay. The 3 LED Light Module would guide the driver on the distance to the designated washing bay based on the front proximity sensor.
+Green LED: Drive In
+Orange LED: Slow Down
+Red LED: Stop
+
+
 
