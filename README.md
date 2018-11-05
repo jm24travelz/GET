@@ -33,6 +33,27 @@
 Green LED: Drive In
 Orange LED: Slow Down
 Red LED: Stop
+![process 1](https://user-images.githubusercontent.com/44767760/47995260-aa334780-e12f-11e8-92da-e02691e2b0eb.jpg)
+
+2)	Once the proximity sensors are activated (meaning that the car is at the designated spot), the LED would turn red and the washing process would begin automatically.
+
+3)	Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs) 
+Water Hose -> First servo motor will activate for 30 seconds to simulate washing 
+![final process - water to soap](https://user-images.githubusercontent.com/44767760/47995215-81ab4d80-e12f-11e8-8aeb-aa1915f50185.jpg)
+Soap -> Second servo motor will be activated for 30 seconds once the washing simulation is complete.
+![final process - soap to scrub](https://user-images.githubusercontent.com/44767760/47995213-8112b700-e12f-11e8-9b64-f60c49ab8d06.jpg)
+Scrubbing -> Third servo motor would be used to simulate scrubbing action. It will run for 30 seconds. 
+![final process - scrub to water](https://user-images.githubusercontent.com/44767760/47995210-8112b700-e12f-11e8-88b3-390b8c68ee70.jpg)
+Water Hose -> Process will end off with 30 seconds simulated wash
+![final process - scrub to water](https://user-images.githubusercontent.com/44767760/47995210-8112b700-e12f-11e8-88b3-390b8c68ee70.jpg)
+
+4)	Once the process is completed, the red LED would revert to green, signalling to the driver that the process is complete, indicating that the driver is free to move out of the washing bay.  (End of Process)
+![final process - drive out](https://user-images.githubusercontent.com/44767760/47995207-807a2080-e12f-11e8-906d-73a640110e65.jpg)
+
+5)	An emergency push button would be situated along the washing bay to ensure ease of access in any situation whereby the automatic washing process runs into any problems. Once the button is pressed, the process would come to a halt, and a technician would come down to check on the situation. An additional push button would be in place to reset the whole system. 
+![final process - emergency stop](https://user-images.githubusercontent.com/44767760/47995208-807a2080-e12f-11e8-9044-6a37e1a79028.jpg)
+
+
 
 
 
