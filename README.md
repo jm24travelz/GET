@@ -24,6 +24,9 @@
 
 •	Week 13: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
 
+## Process Flow Chart
+![get flow chart](https://user-images.githubusercontent.com/44767760/47988272-c5e12280-e11c-11e8-86c4-449abc26c551.jpg)
+
 ## Operation
 
 1)	The car would be directed into the washing bay, through an indication via the green LED light module. The front proximity sensors would ensure that the car is completely in the washing bay. The 3 LED Light Module would guide the driver on the distance to the designated washing bay based on the front proximity sensor.
