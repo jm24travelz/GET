@@ -10,7 +10,7 @@ Jonathan Mohan | Chua Hong Huei
  The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area. 
  Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods 
  
-# Sensors required
+# Components required
 - 	3 LED Light Module 
 -  1 Proximity Sensor
 - 	3 Servo Motors 
