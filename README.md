@@ -1,6 +1,8 @@
 # NUS GET1033 Project: Autonomous Car Washing System 
 
-**Jonathan Mohan | Chua Hong Huei**
+<p align="center">
+Jonathan Mohan | Chua Hong Huei
+</p>
  
 # Overview
  Ever wanted to get a car wash done quickly without the need to wait for an attendant? 
