@@ -133,5 +133,5 @@ By adding the photo below, we ensured that the washing operation in stage 4 will
 ![code p9](https://user-images.githubusercontent.com/44767760/48067942-77ab4c80-e20c-11e8-9900-097ec898a157.png)
 ![code p2](https://user-images.githubusercontent.com/44767760/48067932-7548f280-e20c-11e8-8f3f-bc1e0f9b389c.png)
 
-Full Program Code is available: [GET Coding.docx](https://github.com/jm24travelz/GET/files/2553369/GET.Coding.docx)
+Full Program Code is available to download : [GET Coding.docx](https://github.com/jm24travelz/GET/files/2553369/GET.Coding.docx)
 
