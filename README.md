@@ -77,6 +77,8 @@ Red LED: Stop
 
 ## Video Documentation
 
+[![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
+
 Our Project Documentation Video can be seen from  [GET Project Documentation](https://www.youtube.com/watch?v=AXmwF08m7TU&feature=youtu.be).
 
 ## Actual Challenges faced
