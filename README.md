@@ -79,25 +79,37 @@ Water Hose -> Process will end off with 30 seconds simulated wash
 
 1)	The addition of additional servo motors
 Initially we intended to only use 2 servo motors to simulate 4 actions, however through the programming and consultation Dennis, we realized that having a separate motor for each process would allow easier troubleshoot in case of problems while providing us a smoother, cleaner flow in the programming code. 
-Hence, we decided to use 3 separate servo motors to indicate the different processes (Water, Soap, Scrubbing) 
+Hence, we decided to use 3 separate servo motors to indicate the different processes (Water, Soap, Scrubbing)
+
+ ![servo](https://user-images.githubusercontent.com/44767760/48037758-ce7f3a80-e1a8-11e8-9cf8-6476d9cdb451.jpg)
  
 2)	LED not working properly 
 We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times the it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem. 
 
 3)	Getting the timing right for the servo motor rotations and ensuring that it flows smoothly with all the other processes
 We had many problems programming the servo motors to move continually and consecutively and had to adjust our program several times to fix the issue. It was through reading up online / videos that we realized that there’s a certain way servo motors are programmed to work, and we modified our program as seen below in the picture to rectify it. 
+ 
+ ![coding comparison](https://user-images.githubusercontent.com/44767760/48037826-0ab29b00-e1a9-11e8-94ad-a68fc4b47c8b.jpg)
 
 4)	Proximity Sensor Issues (Hardware)
 Initially we could not figure out why our proximity sensor was not working properly though the programming was correct. We soon realized that it was because the echo and trigger pin were connected incorrectly and rectified it. 
 
+ ![arduino connection](https://user-images.githubusercontent.com/44767760/48037825-0a1a0480-e1a9-11e8-8bd8-080000a92c57.jpg)
+ 
 5)	Proximity sensor measurement was inaccurate (Software)
 During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5mm). Hence, we decided to give a range for the different distances (<10cm Red Colour to indicate car stop, (10-15cm) Orange LED light up to indicate car to slow down, 15cm onwards Red LED light up to instead of using a fix number. This is to provide further accurate and room for error in this automatous system.
 
- In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time   during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This is to ensure       that the proximity sensor is being calibrated during the start up of the entire program before any vehicle enters the washing bay.
+ ![proximity sensor settings](https://user-images.githubusercontent.com/44767760/48037792-e9ea4580-e1a8-11e8-9dce-df97283918c8.jpg)
+ 
+In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time  during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This is to ensure       that the proximity sensor is being calibrated during the start up of the entire program before any vehicle enters the washing bay.
+
+ ![proximity sensor calibration](https://user-images.githubusercontent.com/44767760/48037853-261da600-e1a9-11e8-8598-acd4822447a0.jpg)
 
 6)	Incorrect rotation of servos 
 Initially our servo was not working properly (instead of moving at an angle it was moving continuously acting like a normal motor). However, we soon realized it was due to our program instead of the hardware itself and used the for function to ensure the motor rotated correctly. 
 
+ ![servo motor rotation](https://user-images.githubusercontent.com/44767760/48037868-2fa70e00-e1a9-11e8-8efd-e16bb9444eec.jpg)
+ 
 7)	Accumulations of Delays in the entire project
 The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 4), the emergency button was able to trigger the entire system to come to a halt. 
 
