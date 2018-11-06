@@ -9,11 +9,11 @@
  Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods 
  
 # Sensors required
-1.	3 LED Light Module 
-2.	1 Proximity Sensor
-3.	3 Servo Motors 
-4.	Emergency Push Button 
-5.	Reset Push Button
+- 	3 LED Light Module 
+-  1 Proximity Sensor
+- 	3 Servo Motors 
+- 	Emergency Push Button 
+- 	Reset Push Button
 
 # Proposed Timeline
 •	**Week 8-9**: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
@@ -38,7 +38,7 @@ Red LED: Stop
 
 2)	Once the proximity sensors are activated (meaning that the car is at the designated spot), the LED would turn red and the washing process would begin automatically.
 
-3)	Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs) 
+3)	**Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs)** 
 
 **Water Hose** -> First servo motor will activate for 30 seconds to simulate washing 
 
