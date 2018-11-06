@@ -16,13 +16,13 @@
 5.	Reset Push Button
 
 # Proposed Timeline
-•	Week 8-9: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
+•	**Week 8-9**: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
 
-• Week 10: Complete the coding process, ensure that there are no errors in the code (flow).  At the same time start working on the mock up prototype we will need for the physical demonstration
+• **Week 10**: Complete the coding process, ensure that there are no errors in the code (flow).  At the same time start working on the mock up prototype we will need for the physical demonstration
 
-•	Week 11-12: Collect data required for individual sensors through testing out the code using a working prototype. Calibrate the code to ensure it is fully functional. Work on our project documentation for the final presentation using github.com
+•	**Week 11-12**: Collect data required for individual sensors through testing out the code using a working prototype. Calibrate the code to ensure it is fully functional. Work on our project documentation for the final presentation using github.com
 
-•	Week 13: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
+•	**Week 13**: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
 
 # Process Flow Chart
 ![get flow chart](https://user-images.githubusercontent.com/44767760/47988272-c5e12280-e11c-11e8-86c4-449abc26c551.jpg)
@@ -40,19 +40,19 @@ Red LED: Stop
 
 3)	Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs) 
 
-Water Hose -> First servo motor will activate for 30 seconds to simulate washing 
+**Water Hose** -> First servo motor will activate for 30 seconds to simulate washing 
 
  ![final process - water to soap](https://user-images.githubusercontent.com/44767760/47995215-81ab4d80-e12f-11e8-8aeb-aa1915f50185.jpg)
 
-Soap -> Second servo motor will be activated for 30 seconds once the washing simulation is complete.
+**Soap** -> Second servo motor will be activated for 30 seconds once the washing simulation is complete.
 
  ![final process - soap to scrub](https://user-images.githubusercontent.com/44767760/47995213-8112b700-e12f-11e8-9b64-f60c49ab8d06.jpg)
 
-Scrubbing -> Third servo motor would be used to simulate scrubbing action. It will run for 30 seconds. 
+**Scrubbing** -> Third servo motor would be used to simulate scrubbing action. It will run for 30 seconds. 
 
  ![final process - scrub to water](https://user-images.githubusercontent.com/44767760/47995210-8112b700-e12f-11e8-88b3-390b8c68ee70.jpg)
 
-Water Hose -> Process will end off with 30 seconds simulated wash
+**Water Hose** -> Process will end off with 30 seconds simulated wash
 
  ![final process - scrub to water](https://user-images.githubusercontent.com/44767760/47995210-8112b700-e12f-11e8-88b3-390b8c68ee70.jpg)
 
@@ -74,6 +74,8 @@ Water Hose -> Process will end off with 30 seconds simulated wash
 7)	Both of us did not process strong electronic background
 
 ## Video Documentation
+
+Our Project Documentation Video can be seen from  [GET Project Documentation](https://www.youtube.com/watch?v=AXmwF08m7TU&feature=youtu.be).
 
 ## Actual Challenges faced
 
