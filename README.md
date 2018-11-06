@@ -1,7 +1,7 @@
 # NUS GET1033 Project: Autonomous Car Washing System 
 
 <p align="center">
-Jonathan Mohan | Chua Hong Huei
+Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 </p>
  
 # Overview
