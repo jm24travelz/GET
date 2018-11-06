@@ -121,7 +121,17 @@ The accumulation of delays meant that the motors and LED timings would not tally
 By adding the photo below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
 
 
+## Final Code (With Explanations) 
 
+![code p1](https://user-images.githubusercontent.com/44767760/48067931-7548f280-e20c-11e8-9199-2c900d5904a7.png)
+![code p3](https://user-images.githubusercontent.com/44767760/48067934-7548f280-e20c-11e8-94d7-8d6d6e9f6ec3.png)
+![code p4](https://user-images.githubusercontent.com/44767760/48067935-75e18900-e20c-11e8-8f30-5dd3a6517fb7.png)
+![code p5](https://user-images.githubusercontent.com/44767760/48067937-767a1f80-e20c-11e8-8c9d-483e81fa7c95.png)
+![code p6](https://user-images.githubusercontent.com/44767760/48067938-767a1f80-e20c-11e8-9c65-6066e51e0cbc.png)
+![code p7](https://user-images.githubusercontent.com/44767760/48067939-767a1f80-e20c-11e8-9171-1dbf8e03f6b0.png)
+![code p8](https://user-images.githubusercontent.com/44767760/48067940-7712b600-e20c-11e8-9cfa-bc04f13637ad.png)
+![code p9](https://user-images.githubusercontent.com/44767760/48067942-77ab4c80-e20c-11e8-9900-097ec898a157.png)
+![code p2](https://user-images.githubusercontent.com/44767760/48067932-7548f280-e20c-11e8-8f3f-bc1e0f9b389c.png)
 
 
 
