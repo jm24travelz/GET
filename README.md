@@ -4,7 +4,7 @@
 Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 </p>
 
-text-align: justify
+
 # Overview
  **Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
