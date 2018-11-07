@@ -8,10 +8,7 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
     .reveal .slides {
         text-align: left;
     }
-    .reveal .slides section>* {
-        margin-left: 0;
-        margin-right: 0;
-    }
+
 </style>
 
 # Overview
