@@ -4,6 +4,15 @@
 Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 </p>
 
+<style>
+    .reveal .slides {
+        text-align: left;
+    }
+    .reveal .slides section>* {
+        margin-left: 0;
+        margin-right: 0;
+    }
+</style>
 
 # Overview
  **Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
