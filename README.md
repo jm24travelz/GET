@@ -21,7 +21,6 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 - 	Emergency Push Button 
 - 	Reset Push Button
 
- 
 ![arduino uno](https://user-images.githubusercontent.com/44767760/48461088-e855f880-e80c-11e8-9cec-930c8d258056.jpg)
 ![jumper cables](https://user-images.githubusercontent.com/44767760/48461089-e8ee8f00-e80c-11e8-9bb7-7dea8eb498f3.jpg)
 ![led](https://user-images.githubusercontent.com/44767760/48461090-e8ee8f00-e80c-11e8-898f-44a54e291138.jpg)
@@ -94,7 +93,7 @@ Red LED: Stop
 7)	Both of us did not process strong electronic background
 
 ## Video Documentation - Initial 
-<p align="center">
+ <p align="center">
  
 [![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
 
