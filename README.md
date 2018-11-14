@@ -21,12 +21,15 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 - 	Emergency Push Button 
 - 	Reset Push Button
 
+<p align="center">
+ 
 ![arduino uno](https://user-images.githubusercontent.com/44767760/48460820-c14af700-e80b-11e8-9016-ec17c7ec6f2a.jpg)
 ![jumper cables](https://user-images.githubusercontent.com/44767760/48460821-c1e38d80-e80b-11e8-9ab0-2d58e01c73e9.jpg)
 ![led](https://user-images.githubusercontent.com/44767760/48460823-c1e38d80-e80b-11e8-9ad8-b1e79c7fbb9f.jpg)
 ![proximity sensor](https://user-images.githubusercontent.com/44767760/48460824-c1e38d80-e80b-11e8-8415-b197edbb1c24.jpg)
 ![push button](https://user-images.githubusercontent.com/44767760/48460825-c27c2400-e80b-11e8-8870-d108c816f839.jpg)
 ![servo motors](https://user-images.githubusercontent.com/44767760/48460877-ff481b00-e80b-11e8-9d11-f6d99d1ec697.jpg)
+<p align="left">
 ![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
 
 # Proposed Timeline
