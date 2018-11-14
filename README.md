@@ -22,7 +22,6 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 - 	Reset Push Button
 
 <p align="center">
- 
 ![arduino uno](https://user-images.githubusercontent.com/44767760/48460820-c14af700-e80b-11e8-9016-ec17c7ec6f2a.jpg)
 ![jumper cables](https://user-images.githubusercontent.com/44767760/48460821-c1e38d80-e80b-11e8-9ab0-2d58e01c73e9.jpg)
 ![led](https://user-images.githubusercontent.com/44767760/48460823-c1e38d80-e80b-11e8-9ad8-b1e79c7fbb9f.jpg)
@@ -32,7 +31,6 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 </p>
 
 <p align="left">
- 
 ![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
 </p>
 
