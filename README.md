@@ -82,12 +82,19 @@ Red LED: Stop
 
 ## Potential Challenges (Prior to the Start of Project) 
 1)	With little to no coding and programming background, this project will be an interesting challenge for us to see whether we are able to complete the coding 
+
 2)	Unsure of the availability of certain specific sensors in school, such as the proximity sensor
+
 3)	Usage of proximity sensors would be very tricky as they are very sensitive sensors, this would require multiple test runs to ensure that we get the correct range for the front readings
+
 4)	Setting up of Arudino Circuit Board without much prior experience
+
 5)	Construction of the Autonomous Washing Bay prototype to simulate the washing, soaping, scrubbing process 
+
 6)	Time management in terms of completing the project before the dateline including the proper documentation
-7)	Both of us did not process strong electronic background
+
+7) Both of us did not process strong electronic background
+
 
 ## Application to Module
 1)	 Applications mainly linked with **Chatper 7: Physical Computing**
