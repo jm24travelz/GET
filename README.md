@@ -113,18 +113,12 @@ Red LED: Stop
 
 
 ## Video Documentation - Initial 
- <p align="center">
  
 [![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
 
-</p>
-
 ## Video Documentation - Final 
-<p align="center">
  
 *Insert Video*
-
-</p>
 
 ## Actual Challenges faced
 
