@@ -26,7 +26,7 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 ![led](https://user-images.githubusercontent.com/44767760/48460823-c1e38d80-e80b-11e8-9ad8-b1e79c7fbb9f.jpg)
 ![proximity sensor](https://user-images.githubusercontent.com/44767760/48460824-c1e38d80-e80b-11e8-8415-b197edbb1c24.jpg)
 ![push button](https://user-images.githubusercontent.com/44767760/48460825-c27c2400-e80b-11e8-8870-d108c816f839.jpg)
-![servo motors](https://user-images.githubusercontent.com/44767760/48117491-5ac25800-e2a4-11e8-9fb3-ca3dffe02b9a.jpg)
+![servo motors](https://user-images.githubusercontent.com/44767760/48460877-ff481b00-e80b-11e8-9d11-f6d99d1ec697.jpg)
 ![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
 
 # Proposed Timeline
