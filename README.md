@@ -27,12 +27,9 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 ![proximity sensor](https://user-images.githubusercontent.com/44767760/48461091-e8ee8f00-e80c-11e8-8cba-427322c18e50.jpg)
 ![push button](https://user-images.githubusercontent.com/44767760/48461092-e9872580-e80c-11e8-96a7-87876423b522.jpg)
 ![servo motors](https://user-images.githubusercontent.com/44767760/48461093-e9872580-e80c-11e8-9893-f5ca63b36b12.jpg)
-
-<p align="left">
  
 ![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
 
-</p>
 
 # Proposed Timeline
 •	**Week 8-9**: Consolidate on the current plan and ensure that the entire process is feasible. Find out about the sensors available for students to use in the project. Read up on Arduino programming and start working on the code. 
