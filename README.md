@@ -97,10 +97,10 @@ Red LED: Stop
 5) 	**Visual Rhetoric: This can be seen using different LEDs to indicate to the driver the current occupancy of the car washing area + whether the washing procedure is complete.**
 6) 	Application to **Janet Murray’s 4 Affordances of Digital Media** 
 
-**Participatory: "LOW"
-Spatial: "MEDIUM"
-Encyclopaedic: "LOW" 
-Procedural: ""HIGH""**
+- **Participatory: "LOW"
+- Spatial: "MEDIUM"
+- Encyclopaedic: "LOW" 
+- Procedural: ""HIGH""**
 
 ![digital media affordances](https://user-images.githubusercontent.com/44767760/48494118-23d1e080-e868-11e8-8201-3b4a7b19c496.jpg)
 
