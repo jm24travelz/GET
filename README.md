@@ -89,6 +89,21 @@ Red LED: Stop
 6)	Time management in terms of completing the project before the dateline including the proper documentation
 7)	Both of us did not process strong electronic background
 
+## Application to Module
+•	Applications mainly linked with **Chatper 7: Physical Computing**
+•	**Conversion of Bits to Atoms**
+•	**Physical Computer**: Through the interaction of the Arduino Board with sensors such as the proximity sensors and servo motors. 
+•	Capabilities of a “Robot”\ Our Projects is an apt depiction of what a robot is able to do, namely, think, sense and act. This can be seen from the sensor’s ability to sense/detect the presence of a car and completing a set of rules to direct the car into the washing bay before washing the car 
+•	**Visual Rhetoric: This can be seen using different LEDs to indicate to the driver the current occupancy of the car washing area + whether the washing procedure is complete.**
+•	Application to **Janet Murray’s 4 Affordances of Digital Media** 
+**Participatory: "LOW"
+Spatial: "MEDIUM"
+Encyclopaedic: "LOW" 
+Procedural: ""HIGH""**
+
+![digital media affordances](https://user-images.githubusercontent.com/44767760/48494118-23d1e080-e868-11e8-8201-3b4a7b19c496.jpg)
+
+
 ## Video Documentation - Initial 
  <p align="center">
  
