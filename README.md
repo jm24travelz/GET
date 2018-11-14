@@ -94,11 +94,13 @@ Red LED: Stop
 7)	Both of us did not process strong electronic background
 
 ## Video Documentation
+<p align="center">
+
 Initial (Without Physical Model)
 [![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
 
 Actual (With Physical Model)
-
+</p>
 
 ## Actual Challenges faced
 
