@@ -7,6 +7,8 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 
 # Overview
 
+
+ 
 **Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
  The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the others car to wait outside using the signal system at the front of the washing bay. 
@@ -19,11 +21,11 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 - 	Emergency Push Button 
 - 	Reset Push Button
 
-![arduino uno](https://user-images.githubusercontent.com/44767760/48117485-59912b00-e2a4-11e8-852e-bd7c4ea9d2ea.jpg) 
-![proximity sensor](https://user-images.githubusercontent.com/44767760/48117489-5a29c180-e2a4-11e8-8b54-775775b884e9.jpg)
-![led](https://user-images.githubusercontent.com/44767760/48117488-5a29c180-e2a4-11e8-8f31-3e94305c4821.jpg) 
-![jumper cables](https://user-images.githubusercontent.com/44767760/48117487-5a29c180-e2a4-11e8-9d0b-ddec13b8c20c.jpg)
-![push button](https://user-images.githubusercontent.com/44767760/48117490-5a29c180-e2a4-11e8-8cff-ef9032423e15.jpg)
+![arduino uno](https://user-images.githubusercontent.com/44767760/48460820-c14af700-e80b-11e8-9016-ec17c7ec6f2a.jpg)
+![jumper cables](https://user-images.githubusercontent.com/44767760/48460821-c1e38d80-e80b-11e8-9ab0-2d58e01c73e9.jpg)
+![led](https://user-images.githubusercontent.com/44767760/48460823-c1e38d80-e80b-11e8-9ad8-b1e79c7fbb9f.jpg)
+![proximity sensor](https://user-images.githubusercontent.com/44767760/48460824-c1e38d80-e80b-11e8-8415-b197edbb1c24.jpg)
+![push button](https://user-images.githubusercontent.com/44767760/48460825-c27c2400-e80b-11e8-8870-d108c816f839.jpg)
 ![servo motors](https://user-images.githubusercontent.com/44767760/48117491-5ac25800-e2a4-11e8-9fb3-ca3dffe02b9a.jpg)
 ![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
 
