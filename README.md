@@ -103,7 +103,7 @@ Red LED: Stop
 
 3) **Physical Computer**: Through the interaction of the Arduino Board with sensors such as the proximity sensors and servo motors. 
 
-4) 	Capabilities of a “Robot”\ Our Projects is an apt depiction of what a robot is able to do, namely, think, sense and act. This can be seen from the sensor’s ability to sense/detect the presence of a car and completing a set of rules to direct the car into the washing bay before washing the car 
+4) 	Capabilities of a “Robot”: Our Projects is an apt depiction of what a robot is able to do, namely, think, sense and act. This can be seen from the sensor’s ability to sense/detect the presence of a car and completing a set of rules to direct the car into the washing bay before washing the car 
 
 5) 	**Visual Rhetoric: This can be seen using different LEDs to indicate to the driver the current occupancy of the car washing area + whether the washing procedure is complete.**
 
