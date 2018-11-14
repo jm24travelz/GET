@@ -93,13 +93,18 @@ Red LED: Stop
 6)	Time management in terms of completing the project before the dateline including the proper documentation
 7)	Both of us did not process strong electronic background
 
-## Video Documentation
+## Video Documentation - Initial 
 <p align="center">
-
-Initial (Without Physical Model)
+ 
 [![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
 
-Actual (With Physical Model)
+</p>
+
+## Video Documentation - Final 
+<p align="center">
+ 
+*Insert Video*
+
 </p>
 
 ## Actual Challenges faced
