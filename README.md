@@ -29,7 +29,7 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 ![push button](https://user-images.githubusercontent.com/44767760/48461092-e9872580-e80c-11e8-96a7-87876423b522.jpg)
 ![servo motors](https://user-images.githubusercontent.com/44767760/48461093-e9872580-e80c-11e8-9893-f5ca63b36b12.jpg)
  
-![full flatlay](https://user-images.githubusercontent.com/44767760/48118023-f0121c00-e2a5-11e8-98ab-381f94fe4555.jpg)
+![full flatlay](https://user-images.githubusercontent.com/44767760/48538321-17dd3180-e8ef-11e8-821e-4409955495b5.jpg)
 
 
 # Proposed Timeline
