@@ -249,3 +249,66 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 From this module, it is evident that computational can applied in many fields including Engineering. For instance, the use of Augmented Reality (Feature Tracking) and Virtual Reality can be used to help engineers display finished products to their customers. Another technology would be digital fabrication which is already in place. Engineers are now using 3D printers and CNC mills to fabricate and print prototypes. 
 
 
+
+# Indivdual Reflection Jonathan Mohan (A0168550B)
+
+**1) Project Overview** 
+
+Our project idea started off in during the tutorial session about Physical Computing in week 7. During that tutorial class, we were introduced to the idea of Physical Computing and the idea explained through the video of the water droplets that were moved in various directions, under the user’s control. We decided to use “water” as our element using bits. As my partner was a driver and experienced the long waiting time during his car wash, we thought of having an Autonomous Car Washing System to replace the current system, saving precious time in the process. We wanted to create a simulation of how it might work in real life, using Arduino as the main source for this project. Our system works in a way that it would full autonomous process namely, detecting the arrival of a car, guiding the driver into the washing bay before going through a timed set of automatic procedures that will run based on our coding to ensure that it undergoes washing, soaping, scrubbing and a final rinse process. 
+
+We used Arduino as the basis of the project, with input sensors such as Proximity Sensor, Push buttons. The output sensors range from LED lights and servo motors. 
+
+The main objective of the project was to reduce manpower and labour cost, while at the same time seek to improve the washing efficiency during peak periods with the advancement of technology available in the market currently. Through this project we wanted to explore the boundaries of what we can really achieve without prior knowledge of coding and constructions of systems, while at the same time apply knowledge taught from this module. 
+
+**2)How does our project connect to ideas you have learned in this module?**
+
+Personally, I feel that the most obvious connection would have to be the conversion from Bits to Atoms. The proximity sensor will send out a pulse and based on what it has received, it will be able to gauge the distance between the car and the washing bay. This result would help to trigger the rest of the proceeding car washing operations. It builts on to the application of Physical Computing in week 7 where the lectures and tutorials talked and show about how it is an interactive physical system using software and hardware that has the ability to sense and response to the analog world. 
+Furthermore, our project also touches on that aspect using Arduino. Arduino is a popular open source physical computing method consisting of a microcontroller board, sensors and a language which is used for the board’s programming. 
+Another element that was covered in the lectures was Visual Rhetoric. In our project, we applied that using different colours of the LED which were implemented to direct drivers in and out of the washing bay by informing them of the current occupancy.
+ 
+**3) Analyze the affordances of digital media it uses** 
+
+After learning about the Janet Murray’s affordances in class, I would be analyzing the affordances of our own system in the project, namely Participatory, Spatial, Encyclopedic and Procedural. As our system is mainly a mock up prototype of the potential product, some affordances such as Encyclopedic and Spatial cannot be fully maximized. 
+
+Participatory: LOW (Does not require much participating from the users as the program functions based on the proximity sensor distance reading, the only required input is the emergency stop and start button which would be activated by the staff) 
+Spatial: MEDIUM (Takes in data from the proximity sensor based on the pulse sent out)
+Encyclopedic: LOW (interaction through the code)
+Procedural: HIGH (must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
+
+**4)How does it make use of the new abilities of computers?**
+
+How do you make use of computers (abilities) to make process fully automatic? 
+
+**5)How does it build off other projects you have seen?**
+
+I did not have much prior knowledge of this system, and just wanted to find ways that my partner and I could improve existing systems to make it more efficient and user friendly also. Currently most car wash systems in the market are semi-autonomous, and through this project, we wanted to tap on the idea of making this car washing system a fully automatic procedure, improving its efficiency and reducing the manpower at the same time. 
+
+**6) Challenges I faced throughout the project**
+
+Prior to the start of this project, I did not have prior exposure to coding, with my only experience being taught C+ programming back in the Polytechnic. Hence it was difficult to work with my partner to brainstorm on ways to write the code in an efficient and precise manner. We spilt the project into 2 portions, namely the documentation + construction and the programming. My partner, Brandon took the programming portion and I helped him to research on the types of code required for our various sensors, such as servo motors and proximity sensors. Personally, I had difficulties with some of the hardware connections, eg: connecting the servo motor and proximity sensor wrongly and had to watch YouTube tutorials to get the wirings correct. Another example was the pushbutton. We had much difficulties in getting it to work, even though we read through various online forum posts and changed our programs. Dennis was the one that taught us the different between the ends of each Pushbutton “leg” and how we could use a voltmeter to test for the proper orientation. It was only through his guidance that we were able to understand the concept behind the pushbutton orientation and apply it properly in the project.
+
+For the project documentation, I had to use GitHub to upload all information regarding our project. This was a challenge to me as I have been so used to working on documentation offline, and GitHub required some sort of coding to ensure the text appears in the way it should be. It took me a while to get the hang of the coding there as I had no prior experience to using mark-up language.  Furthermore, I had to research on how I could add pictures and videos using this coding language. This was a good challenge to me and I feel that with the knowledge I have learnt using GitHub, I could potentially further explore how I can use this as a platform for other documentations for the future. 
+
+Overall this project challenged me to step out of my comfort zone and explore new areas of computing and coding which I did not thought I would have learnt as an engineer. It also showed me the importance of teamwork, being on the same page as my teammate to ensure that our project was executed well before the project dateline. 
+
+**7)What further improvements could be made to my project to enhance it’s capabilities?**
+
+If given a longer duration to execute the project, I would have preferred using CAD software such as Creo or AutoCAD to physically design the car washing bay, using the school’s 3D printer to fabricate the model instead of constructing it using Lego.  This would help to tie in with what I learnt in the Digital Fabrication lecture and at the same time give me a chance to learn more about the fabrication processes behind 3D Printing. 
+
+Furthermore, instead of simulating the washing procedure using the servo motors, there is further room to explore how I could implement the use of motion control to allow the motor to “interact” with the car and it’s surroundings better. This would be something that will make our system stand out, while at the same time test my coding and fabrication abilities. 
+ 
+**Module:**
+
+**1) What have I learnt from the module and felt challenging**
+
+I came into this module with not much expectations, as I did not have much prior knowledge and experience with Computer Literacy. Personally, I did not even understand what it meant and thought this module would be a good opportunity to learn more about computers and digital media.  Though that was true partially, I found myself exploring more into the various aspects of technologies that make up computational media and enjoying myself in the process. After this module, I find myself being more inquisitive about the systems that are in place in our daily life and have a better appreciation for how computation enhances key features of modern living. As an individual who has a robotics background and an avid photographer, I found topics such as Intellectual property, social media, digital fabrication very applicable to my life. Both the technical and practical aspects of this module allowed me to think of new ways to expand and develop of the ideas currently on the market.
+
+The peer presentations / tutorials sessions also allowed me to learn new topics and skills in the classroom. I personally enjoyed the photoshop tutorial done in one of my tutorial class when I learnt how to further manipulate images using photoshop. Furthermore, challenges such as “creating” a computer game from scratch was also a good way for me to step out of my comfort zone and practically test my understanding of the applications of coding. Personally, I found topics such as Physical computing which included Tangible User Interface (TUI) and Graphical User Interface (GUI) particularly challenging. I could not really grasp the idea of both interfaces and found it hard to apply it to my daily life and project in general. 
+
+**2) Module Application as an Engineer**
+
+As an engineering student, there is a vast majority of content in this module that I find applicable to my studies. The advancement technology coupled with Augmented Reality and Virtual Reality allows future engineers like myself an opportunity to make our 3D models come to life without having to fabricate an actual prototype. This would allow more efficient workflow and increase productivity for future design jobs. 
+
+Another important aspect of engineering work is programming / coding. This module has really given me the opportunity to learn new forms of coding which would be very useful in my future profession. With so many applications and appliances linked to technology and computer these days, this module provided me with a better understand of possible ways that I can interact with them, maximising the products full potential. 
+
+
