@@ -198,7 +198,7 @@ Furthermore, we were taught that a robot should be able to do 3 things such as s
 Another element that was covered in the lectures was Visual Rhetoric. We applied this in our project by using different coloured LEDs to direct drivers in and out of our car washing system and also inform drivers of the current occupancy of the system.
 
  
-**3.	 Analyze the affordances of digital media it uses**
+**3. Analyze the affordances of digital media it uses**
 
 -	Participatory: LOW 
 o	Does not require much participating from the users as the program functions based on the proximity sensor distance reading
@@ -222,6 +222,7 @@ From this, our project is able to combine the abilities of computer to achieve i
 Our project is an upgrade to existing car washing systems. Currently, car washing systems are either running fully on manpower or semi. Car washing systems that are running entirely on manpower labour are inefficient as it takes a longer time to wash bigger cars while incurring addition manpower cost. Car washing systems that are not running fully on manpower labour still requires a staff to direct cars into the washing bay, start and stop the washing process.
 Through the use of proximity sensors and LEDs, we are able to make car wash fully automatic by eliminating the need for an additional staff on the ground to direct, start and stop the washing process. Thus, increasing the efficiency of car washes and reducing labour and manpower cost.
  
+
 **6.	Challenges I faced throughout the project**
 
 With little to no experience on Arduino, coding and electronics, I faced many challenges during the coding and testing phase of the project. Having no background on the related topics meant that I had to spend time reading sample codes online to understand what the purpose of each line was. To make things worse, we had components such as Proximity Sensors, Servo Motors, Push Button and LEDs that had to be incorporated in the program.
