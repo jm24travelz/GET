@@ -127,7 +127,7 @@ An emergency push button would be situated along the washing bay to ensure ease 
 
 ## Video Documentation - Final 
  
-[![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
+[![](http://img.youtube.com/vi/QXAhWpdfmwc/0.jpg)](https://www.youtube.com/watch?v=QXAhWpdfmwc&feature=youtu.be "Final Project Process Run")
 
 ## Actual Challenges faced
 
@@ -174,7 +174,13 @@ Initially our servo was not working properly (instead of moving at an angle it w
 The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 3), the emergency button was able to trigger the entire system to come to a halt. 
 
 ### 8)	Both washing operations in Stage 1 and Stage 4 clashes
-By adding the video below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
+As shown in the video below, the servo motor is unable to rotate properly at stage 4 (Final Wash) as it clashes with the codes written for stage 1 (Initial Wash). 
+
+*insert video*
+
+By adding the code below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
+
+*insert photo*
 
 
 ## Final Code (With Explanations) 
