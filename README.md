@@ -188,7 +188,7 @@ As shown in the video below, the servo motor is unable to rotate properly at sta
 
 By adding the code below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
 
-*insert photo*
+![servo motor rotation](https://user-images.githubusercontent.com/44767760/48539123-3d6b3a80-e8f1-11e8-9830-e103a05ec725.jpg)
 
 
 ## Final Code (With Explanations) 
