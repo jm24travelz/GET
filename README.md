@@ -196,6 +196,7 @@ Our project uses mainly concepts that were taught in week 7 namely “Physical C
 The concept of Physical Computing is evident in our project as we managed to build an interactive car washing system using hardware and software such as Proximity Sensor, Servo Motors and Arduino that is capable of sensing and responding to actual cars in the world. Also, to ensure that the car is washed, the concept of converting bits to atoms is seen. The car washing system is able to detect the car from a distance and slowly direct it to a stop before activating the Servo Motors which are representing the activation of water, soap and scrubbers in the system.
 Furthermore, we were taught that a robot should be able to do 3 things such as sense, think and act which is what our project is capable of. It is first able to sense/detect the presence of a car after which following a set of codes/rules to direct the car into the washing bay before washing the car as a form of act.
 Another element that was covered in the lectures was Visual Rhetoric. We applied this in our project by using different coloured LEDs to direct drivers in and out of our car washing system and also inform drivers of the current occupancy of the system.
+
  
 **3.	 Analyze the affordances of digital media it uses**
 
@@ -227,6 +228,7 @@ With little to no experience on Arduino, coding and electronics, I faced many ch
 I faced many challenges throughout the coding phase of the project. I was unable to understand codes and unsure of why things were not going right. For a start, I was using “delay” function and “for” loop function to get the servo spinning properly. However, this became a problem when I had to introduce an emergency stop switch. As the delay function in Arduino essentially stops the program from running, my emergency stop will also be either delayed or not registered which poses as a huge problem. After consultation with Dennis, I was advised to not use “for” loop to move the servo so that the emergency stop can be registered during the movement of the servos. 
 Without knowing anything about Arduino boards, I had to go around asking what the pin does. For example, there are analog and digital pins that are essentially the same, but the main difference is the analog pin ability to read analog sensors. This was something that I did not know, and it slowed down my progress when programming. Furthermore, breadboards were commonly used in conjunction with Arduino boards. However, I was unsure of how to connect the wires and components such that it was linked resulting in time spent researching and watching videos that explained the connection behind breadboards. For example, we had to run test every time there was a change in the codes that affected the motors. However, we were unsure if it was the code or the connection between the Arduino board and component was wrong. Another example would be the push button. We did not know that there was a way connect it until Dennis instructed us to use a voltmeter to test and find the correct orientation.
  
+
 **Module (General):**
 
 **1.	What have I learnt from the module** 
