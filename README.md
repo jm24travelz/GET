@@ -10,8 +10,9 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 # Overview
 
 
+ **Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
  
-<p align="justify">**Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
+<p align="justify">
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
  The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the cars to wait outside using our signal system outside the washing bay. 
  Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods.</p>
