@@ -303,10 +303,14 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 
 <p align="justify">After learning about the Janet Murray’s affordances in class, I would be analyzing the affordances of our own system in the project, namely Participatory, Spatial, Encyclopedic and Procedural. As our system is mainly a mock up prototype of the potential product, some affordances such as Encyclopedic and Spatial cannot be fully maximized. </p>
 
-Participatory: LOW (Does not require much participating from the users as the program functions based on the proximity sensor distance reading, the only required input is the emergency stop and start button which would be activated by the staff) 
-Spatial: MEDIUM (Takes in data from the proximity sensor based on the pulse sent out)
-Encyclopedic: LOW (interaction through the code)
-Procedural: HIGH (must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
+
+**Participatory: LOW** (Does not require much participating from the users as the program functions based on the proximity sensor distance reading, the only required input is the emergency stop and start button which would be activated by the staff) 
+
+**Spatial: MEDIUM** (Takes in data from the proximity sensor based on the pulse sent out)
+
+**Encyclopedic: LOW** (interaction through the code)
+
+**Procedural: HIGH** (must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
 
 4.&nbsp;How does it make use of the new abilities of computers?
 
