@@ -4,6 +4,8 @@
 Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 </p>
 
+![final documentation](https://user-images.githubusercontent.com/44767760/48536489-b5356700-e8e9-11e8-92a0-92db50883985.jpg)
+
 
 # Overview
 
@@ -11,15 +13,14 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
  
 **Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
- The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the others car to wait outside using the signal system at the front of the washing bay. 
+ The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the cars to wait outside using our signal system outside the washing bay. 
  Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods.
  
 # Components required
 - 	5 LED Light Module 
 -  1 Proximity Sensor
 - 	3 Servo Motors 
-- 	Emergency Push Button 
-- 	Reset Push Button
+- 	Emergency Start/Stop Push Button
 
 ![arduino uno](https://user-images.githubusercontent.com/44767760/48461088-e855f880-e80c-11e8-9cec-930c8d258056.jpg)
 ![jumper cables](https://user-images.githubusercontent.com/44767760/48461089-e8ee8f00-e80c-11e8-9bb7-7dea8eb498f3.jpg)
@@ -38,25 +39,28 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 
 •	**Week 11-12**: Collect data required for individual sensors through testing out the code using a working prototype. Calibrate the code to ensure it is fully functional. Work on our project documentation for the final presentation using github.com
 
-•	**Week 13**: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation
+•	**Week 13**: Minor fine tuning, before the actual presentation. Coding Complete, step by step workflow process complete, reflections complete. Prototype completed for presentation.
 
 # Process Flow Chart
-![get flow chart](https://user-images.githubusercontent.com/44767760/47988272-c5e12280-e11c-11e8-86c4-449abc26c551.jpg)
+![get flow chart](https://user-images.githubusercontent.com/44767760/48535654-055efa00-e8e7-11e8-8129-7cd077ae788e.jpg)
 
 # Operation
 
-1)	The car would be directed into the washing bay, through an indication via the green LED light module. The front proximity sensors would ensure that the car is completely in the washing bay. The 3 LED Light Module would guide the driver on the distance to the designated washing bay based on the front proximity sensor.
+The car would be directed into the washing bay, through an indication via the green LED light module. The front proximity sensors would ensure that the car is completely in the washing bay. The 3 LED Light Module would guide the driver on the distance to the designated washing bay based on the front proximity sensor.
+
 Green LED: Drive In
+
 Orange LED: Slow Down
+
 Red LED: Stop
 
  ![process 1](https://user-images.githubusercontent.com/44767760/47995260-aa334780-e12f-11e8-92da-e02691e2b0eb.jpg)
 
-2)	Once the proximity sensors are activated (meaning that the car is at the designated spot), the LED would turn red and the washing process would begin automatically.
+Once the proximity sensors are activated (meaning that the car is at the designated spot), the LED and the external signal would turn red. Washing process would begin automatically. 
 
-3)	**Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs)** 
+**Car Wash Process: Water (30secs) -> Soap (30secs) -> Scrubbing (30secs) -> Water (30secs)** 
 
-**Water Hose** -> First servo motor will activate for 30 seconds to simulate washing 
+**Water Hose** -> First servo motor will activate for 30 seconds to simulate washing.
 
  ![final process - water to soap](https://user-images.githubusercontent.com/44767760/47995215-81ab4d80-e12f-11e8-8aeb-aa1915f50185.jpg)
 
@@ -72,32 +76,32 @@ Red LED: Stop
 
  ![final process - scrub to water](https://user-images.githubusercontent.com/44767760/47995210-8112b700-e12f-11e8-88b3-390b8c68ee70.jpg)
 
-4)	Once the process is completed, the red LED would revert to green, signalling to the driver that the process is complete, indicating that the driver is free to move out of the washing bay.  (End of Process)
+Once the wash is completed, the Green LED will light up inform the driver that the car wash is complete and he can drive the car out of the washing bay. (End of Process)
 
  ![final process - drive out](https://user-images.githubusercontent.com/44767760/47995207-807a2080-e12f-11e8-906d-73a640110e65.jpg)
 
-5)	An emergency push button would be situated along the washing bay to ensure ease of access in any situation whereby the automatic washing process runs into any problems. Once the button is pressed, the process would come to a halt, and a technician would come down to check on the situation. An additional push button would be in place to reset the whole system. 
+An emergency push button would be situated along the washing bay to ensure ease of access in any situation whereby the automatic washing process runs into any problems. Once the button is pressed, the process would come to a halt, and a technician would come down to check on the situation. The same pushbutton would be used to start the system. 
 
  ![final process - emergency stop](https://user-images.githubusercontent.com/44767760/47995208-807a2080-e12f-11e8-9044-6a37e1a79028.jpg)
 
 ## Potential Challenges (Prior to the Start of Project) 
-1)	With little to no coding and programming background, this project will be an interesting challenge for us to see whether we are able to complete the coding 
+1)	With little to no coding and programming background, this project will be an interesting challenge for us to see whether we are able to complete the coding.
 
-2)	Unsure of the availability of certain specific sensors in school, such as the proximity sensor
+2)	Unsure of the availability of certain specific sensors in school, such as the proximity sensor.
 
-3)	Usage of proximity sensors would be very tricky as they are very sensitive sensors, this would require multiple test runs to ensure that we get the correct range for the front readings
+3)	Usage of proximity sensors would be very tricky as they are very sensitive sensors, this would require multiple test runs to ensure that we get the correct range for the front readings.
 
-4)	Setting up of Arudino Circuit Board without much prior experience
+4)	Setting up of Arudino Circuit Board without much prior experience.
 
-5)	Construction of the Autonomous Washing Bay prototype to simulate the washing, soaping, scrubbing process 
+5)	Construction of the Autonomous Washing Bay prototype to simulate the washing, soaping, scrubbing process.
 
-6)	Time management in terms of completing the project before the dateline including the proper documentation
+6)	Time management in terms of completing the project before the dateline including proper documentation.
 
-7) Both of us did not process strong electronic background
+7) Neither of us possessed strong skills and background knowledge related to electronics. 
 
 
 ## Application to Module
-1)	 Applications mainly linked with **Chatper 7: Physical Computing**
+1)	 Applications mainly linked with **Chapter 7: Phyical Computing, Robot.**
 
 2)	**Conversion of Bits to Atoms**
 
@@ -123,21 +127,21 @@ Red LED: Stop
 
 ## Video Documentation - Final 
  
-*Insert Video*
+[![](http://img.youtube.com/vi/AXmwF08m7TU/0.jpg)](http://www.youtube.com/watch?v=AXmwF08m7TU "NUS GET Project Documentation Trial 1")
 
 ## Actual Challenges faced
 
-### 1)	The addition of additional servo motors
+### 1)	Implementation of Multiple Servo Motors
 Initially we intended to only use 2 servo motors to simulate 4 actions, however through the programming and consultation Dennis, we realized that having a separate motor for each process would allow easier troubleshoot in case of problems while providing us a smoother, cleaner flow in the programming code. 
-Hence, we decided to use 3 separate servo motors to indicate the different processes (Water, Soap, Scrubbing)
+Hence, we decided to use 3 separate servo motors to indicate the different processes.(Water, Soap, Scrubbing)
 
    ![servo](https://user-images.githubusercontent.com/44767760/48037758-ce7f3a80-e1a8-11e8-9cf8-6476d9cdb451.jpg)
  
-### 2)	LED not working properly 
-We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times the it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem. 
+### 2)	LED malfunctions
+We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem. 
 
 ### 3)	Getting the timing right for the servo motor rotations and ensuring that it flows smoothly with all the other processes
-We had many problems programming the servo motors to move continually and consecutively and had to adjust our program several times to fix the issue. It was through reading up online / videos that we realized that there’s a certain way servo motors are programmed to work, and we modified our program as seen below in the picture to rectify it. 
+We faced many problems programming the servo motors to move continously and consecutively, and had to constantly edit our program to fix the issue. It was through articles and videos online that we found a way to turn our servo motors using if statements (right) instead of the for loop function (left). 
  
    ![coding comparison](https://user-images.githubusercontent.com/44767760/48037826-0ab29b00-e1a9-11e8-94ad-a68fc4b47c8b.jpg)
  
@@ -147,11 +151,17 @@ Initially we could not figure out why our proximity sensor was not working prope
    ![arduino connection](https://user-images.githubusercontent.com/44767760/48037825-0a1a0480-e1a9-11e8-8bd8-080000a92c57.jpg)
  
 ### 5)	Proximity sensor measurement was inaccurate (Software)
-During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5mm). Hence, we decided to give a range for the different distances (<10cm Red Colour to indicate car stop, (10-15cm) Orange LED light up to indicate car to slow down, 15cm onwards Red LED light up to instead of using a fix number. This is to provide further accurate and room for error in this automatous system.
+During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5cm). Hence, we decided to give a range for the different distances. 
+
+Red: < 10cm
+
+Orange: 10-15cm
+
+Green: > 15cm 
 
   ![proximity sensor settings](https://user-images.githubusercontent.com/44767760/48037792-e9ea4580-e1a8-11e8-9dce-df97283918c8.jpg)
  
-In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time  during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This is to ensure       that the proximity sensor is being calibrated during the start up of the entire program before any vehicle enters the washing bay.
+In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time  during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This ensures that the proximity sensor is being calibrated during the initialisation of the program.
 
   ![proximity sensor calibration](https://user-images.githubusercontent.com/44767760/48037853-261da600-e1a9-11e8-8598-acd4822447a0.jpg)
 
@@ -161,10 +171,10 @@ Initially our servo was not working properly (instead of moving at an angle it w
    ![servo motor rotation](https://user-images.githubusercontent.com/44767760/48037868-2fa70e00-e1a9-11e8-8efd-e16bb9444eec.jpg)
  
 ### 7)	Accumulations of Delays in the entire project
-The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 4), the emergency button was able to trigger the entire system to come to a halt. 
+The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 3), the emergency button was able to trigger the entire system to come to a halt. 
 
 ### 8)	Both washing operations in Stage 1 and Stage 4 clashes
-By adding the photo below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
+By adding the video below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
 
 
 ## Final Code (With Explanations) 
