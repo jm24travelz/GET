@@ -101,17 +101,17 @@ An emergency push button would be situated along the washing bay to ensure ease 
 
 
 ## Application to Module
-1)	 Applications mainly linked with **Chapter 7: Phyical Computing, Robot.**
+1.Applications mainly linked with **Chapter 7: Phyical Computing, Robot.**
 
-2)	**Conversion of Bits to Atoms**
+2.**Conversion of Bits to Atoms**
 
-3) **Physical Computer**: Through the interaction of the Arduino Board with sensors such as the proximity sensors and servo motors. 
+3.**Physical Computer**: Through the interaction of the Arduino Board with sensors such as the proximity sensors and servo motors. 
 
-4) 	Capabilities of a “Robot”: Our Projects is an apt depiction of what a robot is able to do, namely, think, sense and act. This can be seen from the sensor’s ability to sense/detect the presence of a car and completing a set of rules to direct the car into the washing bay before washing the car 
+4.Capabilities of a “Robot”: Our Projects is an apt depiction of what a robot is able to do, namely, think, sense and act. This can be seen from the sensor’s ability to sense/detect the presence of a car and completing a set of rules to direct the car into the washing bay before washing the car 
 
-5) 	**Visual Rhetoric: This can be seen using different LEDs to indicate to the driver the current occupancy of the car washing area + whether the washing procedure is complete.**
+5.**Visual Rhetoric: This can be seen using different LEDs to indicate to the driver the current occupancy of the car washing area + whether the washing procedure is complete.**
 
-6) 	Application to **Janet Murray’s 4 Affordances of Digital Media** 
+6.Application to **Janet Murray’s 4 Affordances of Digital Media** 
 
 - **Participatory**: "LOW"
 - **Spatial**: "MEDIUM"
@@ -131,26 +131,26 @@ An emergency push button would be situated along the washing bay to ensure ease 
 
 ## Actual Challenges faced
 
-### 1)	Implementation of Multiple Servo Motors
+### 1.Implementation of Multiple Servo Motors
 Initially we intended to only use 2 servo motors to simulate 4 actions, however through the programming and consultation Dennis, we realized that having a separate motor for each process would allow easier troubleshoot in case of problems while providing us a smoother, cleaner flow in the programming code. 
 Hence, we decided to use 3 separate servo motors to indicate the different processes.(Water, Soap, Scrubbing)
 
    ![servo](https://user-images.githubusercontent.com/44767760/48037758-ce7f3a80-e1a8-11e8-9cf8-6476d9cdb451.jpg)
  
-### 2)	LED malfunctions
+### 2.LED malfunctions
 We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem. 
 
-### 3)	Getting the timing right for the servo motor rotations and ensuring that it flows smoothly with all the other processes
+### 3.Getting the timing right for the servo motor rotations and ensuring that it flows smoothly with all the other processes
 We faced many problems programming the servo motors to move continously and consecutively, and had to constantly edit our program to fix the issue. It was through articles and videos online that we found a way to turn our servo motors using if statements (right) instead of the for loop function (left). 
  
    ![coding comparison](https://user-images.githubusercontent.com/44767760/48037826-0ab29b00-e1a9-11e8-94ad-a68fc4b47c8b.jpg)
  
-### 4)	Proximity Sensor Issues (Hardware)
+### 4.Proximity Sensor Issues (Hardware)
 Initially we could not figure out why our proximity sensor was not working properly though the programming was correct. We soon realized that it was because the echo and trigger pin were connected incorrectly and rectified it. 
 
    ![arduino connection](https://user-images.githubusercontent.com/44767760/48037825-0a1a0480-e1a9-11e8-8bd8-080000a92c57.jpg)
  
-### 5)	Proximity sensor measurement was inaccurate (Software)
+### 5.Proximity sensor measurement was inaccurate (Software)
 During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5cm). Hence, we decided to give a range for the different distances. 
 
 Red: < 10cm
@@ -165,15 +165,15 @@ In addition, the calibration of the Proximity Sensor also posed us several probl
 
   ![proximity sensor calibration](https://user-images.githubusercontent.com/44767760/48037853-261da600-e1a9-11e8-8598-acd4822447a0.jpg)
 
-### 6)	Incorrect rotation of servos 
+### 6.Incorrect rotation of servos 
 Initially our servo was not working properly (instead of moving at an angle it was moving continuously acting like a normal motor). However, we soon realized it was due to our program instead of the hardware itself and used the for function to ensure the motor rotated correctly. 
 
    ![servo motor rotation](https://user-images.githubusercontent.com/44767760/48037868-2fa70e00-e1a9-11e8-8efd-e16bb9444eec.jpg)
  
-### 7)	Accumulations of Delays in the entire project
+### 7.Accumulations of Delays in the entire project
 The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 3), the emergency button was able to trigger the entire system to come to a halt. 
 
-### 8)	Both washing operations in Stage 1 and Stage 4 clashes
+### 8.Both washing operations in Stage 1 and Stage 4 clashes
 As shown in the video below, the servo motor is unable to rotate properly at stage 4 (Final Wash) as it clashes with the codes written for stage 1 (Initial Wash). 
 
 *insert video*
