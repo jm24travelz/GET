@@ -200,15 +200,15 @@ Another element that was covered in the lectures was Visual Rhetoric. We applied
  
 **3. Analyze the affordances of digital media it uses**
 
--	Participatory: LOW 
+-	Participatory- LOW 
 o	Does not require much participating from the users as the program functions based on the proximity sensor distance reading
 o	Only require input for Emergency Stop and Start Button from the staff
--	Spatial: MEDIUM 
+-	Spatial- MEDIUM 
 o	Takes in data from the proximity sensor based on the pulse sent out
--	Encyclopedic: LOW 
+-	Encyclopedic- LOW 
 o	Interaction through the code
 o	Unable to store much data as it only uses proximity sensor as an input
--	Procedural: HIGH 
+-	Procedural- HIGH 
 o	Must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently
 
 **4.	How does it make use of the new abilities of computers?**
