@@ -197,9 +197,12 @@ By adding the code below, we ensured that the washing operation in stage 4 will 
 
 Full Program Code is available to download : [GET Coding.docx](https://github.com/jm24travelz/GET/files/2553369/GET.Coding.docx)
 
-# Indivdual Reflection Chua Hong Huei(A0168608U)
+# Indivdual Reflection 
+
+## Chua Hong Huei(A0168608U)
 
 **1.	Overview of Project**
+
 The idea of this project came up during the week Physical Computing was taught. The idea of physical computing was to create an interactive system that is able to sense and respond to the physical world with the help of software and hardware. We were also shown a video whereby water droplets were being moved in different directions controlled by the user. From this, we decided to think of an idea that involves water using bits. As a driver, I have been to car wash and spent a considerable amount of time waiting for the service staff to wash cars in front of me.  Therefore, we came up with the idea of an autonomous car washing system. 
 
 To achieve this idea, we had to use Arduino and several sensors, servo motors and LEDs. Arduino is a popular open source physical computing method consisting of a microcontroller board, sensors and a language which is used for the board’s programming. Using Proximity Sensor and LEDs, the car washing system is able to automatically detect the arrival of a car and guide the driver into the washing bay after which it will go through a set of timed procedures programmed to wash, soap, scrub the car. We have also introduced an emergency stop and start button to ensure the safety of the consumers in the event of a malfunction.
@@ -265,8 +268,7 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 From this module, it is evident that computational can applied in many fields including Engineering. For instance, the use of Augmented Reality (Feature Tracking) and Virtual Reality can be used to help engineers display finished products to their customers. Another technology would be digital fabrication which is already in place. Engineers are now using 3D printers and CNC mills to fabricate and print prototypes. 
 
 
-
-# Indivdual Reflection Jonathan Mohan (A0168550B)
+## Jonathan Mohan (A0168550B)
 
 **1) Project Overview** 
 
