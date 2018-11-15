@@ -197,17 +197,19 @@ The concept of Physical Computing is evident in our project as we managed to bui
 Furthermore, we were taught that a robot should be able to do 3 things such as sense, think and act which is what our project is capable of. It is first able to sense/detect the presence of a car after which following a set of codes/rules to direct the car into the washing bay before washing the car as a form of act.
 Another element that was covered in the lectures was Visual Rhetoric. We applied this in our project by using different coloured LEDs to direct drivers in and out of our car washing system and also inform drivers of the current occupancy of the system.
 
- 
 **3. Analyze the affordances of digital media it uses**
 
 **Participatory- LOW**
 (	Does not require much participating from the users as the program functions based on the proximity sensor distance reading
 Only require input for Emergency Stop and Start Button from the staff)
+
 **Spatial- MEDIUM**
 (Takes in data from the proximity sensor based on the pulse sent out)
+
 **Encyclopedic- LOW**
 (Interaction through the code
 Unable to store much data as it only uses proximity sensor as an input)
+
 **Procedural- HIGH**
 (Must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
 
