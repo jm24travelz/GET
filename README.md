@@ -265,8 +265,8 @@ The main objective of the project was to reduce manpower and labour cost, while 
 Personally, I feel that the most obvious connection would have to be the conversion from Bits to Atoms. The proximity sensor will send out a pulse and based on what it has received, it will be able to gauge the distance between the car and the washing bay. This result would help to trigger the rest of the proceeding car washing operations. It builts on to the application of Physical Computing in week 7 where the lectures and tutorials talked and show about how it is an interactive physical system using software and hardware that has the ability to sense and response to the analog world. 
 Furthermore, our project also touches on that aspect using Arduino. Arduino is a popular open source physical computing method consisting of a microcontroller board, sensors and a language which is used for the board’s programming. 
 Another element that was covered in the lectures was Visual Rhetoric. In our project, we applied that using different colours of the LED which were implemented to direct drivers in and out of the washing bay by informing them of the current occupancy.
- 
-**3) Analyze the affordances of digital media it uses** 
+
+**3)Analyze the affordances of digital media it uses** 
 
 After learning about the Janet Murray’s affordances in class, I would be analyzing the affordances of our own system in the project, namely Participatory, Spatial, Encyclopedic and Procedural. As our system is mainly a mock up prototype of the potential product, some affordances such as Encyclopedic and Spatial cannot be fully maximized. 
 
@@ -297,6 +297,7 @@ If given a longer duration to execute the project, I would have preferred using 
 
 Furthermore, instead of simulating the washing procedure using the servo motors, there is further room to explore how I could implement the use of motion control to allow the motor to “interact” with the car and it’s surroundings better. This would be something that will make our system stand out, while at the same time test my coding and fabrication abilities. 
  
+
 **Module:**
 
 **1) What have I learnt from the module and felt challenging**
