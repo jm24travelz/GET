@@ -184,7 +184,7 @@ The accumulation of delays meant that the motors and LED timings would not tally
 
 As shown in the video below, the servo motor is unable to rotate properly at stage 4 (Final Wash) as it clashes with the codes written for stage 1 (Initial Wash). 
 
-[![](http://img.youtube.com/vi/Tm-8aYyyA2Y.jpg)](https://www.youtube.com/watch?v=Tm-8aYyyA2Y&feature=youtu.be"Servo Motor not working")
+[![](http://img.youtube.com/vi/Tm-8aYyyA2Y.jpg)](https://www.youtube.com/watch?v=Tm-8aYyyA2Y&feature=youtu.be "Servo Motor not working")
 
 By adding the code below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
 
