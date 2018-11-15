@@ -229,18 +229,18 @@ Another element that was covered in the lectures was Visual Rhetoric. We applied
 
 3.&nbsp;Analyze the affordances of digital media it uses
 
-**Participatory- LOW**
+**Participatory - LOW**
 (	Does not require much participating from the users as the program functions based on the proximity sensor distance reading
 Only require input for Emergency Stop and Start Button from the staff)
 
-**Spatial- MEDIUM**
+**Spatial - MEDIUM**
 (Takes in data from the proximity sensor based on the pulse sent out)
 
-**Encyclopedic- LOW**
+**Encyclopedic - LOW**
 (Interaction through the code
 Unable to store much data as it only uses proximity sensor as an input)
 
-**Procedural- HIGH**
+**Procedural - HIGH**
 (Must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
 
 4.&nbsp;How does it make use of the new abilities of computers?
@@ -304,17 +304,23 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 <p align="justify">After learning about the Janet Murray’s affordances in class, I would be analyzing the affordances of our own system in the project, namely Participatory, Spatial, Encyclopedic and Procedural. As our system is mainly a mock up prototype of the potential product, some affordances such as Encyclopedic and Spatial cannot be fully maximized. </p>
 
 
-**Participatory - LOW** (Does not require much participating from the users as the program functions based on the proximity sensor distance reading, the only required input is the emergency stop and start button which would be activated by the staff) 
+**Participatory - LOW** 
+(Does not require much participating from the users as the program functions based on the proximity sensor distance reading, the only required input is the emergency stop and start button which would be activated by the staff) 
 
-**Spatial - MEDIUM** (Takes in data from the proximity sensor based on the pulse sent out)
+**Spatial - MEDIUM** 
+(Based on the pulse the proximity sensor sends out, our system can take in the data and applies it to the rest of our code, ensuring the functionality of the system.)
 
-**Encyclopedic - LOW** (interaction through the code)
+**Encyclopedic - LOW** 
+(The only interaction involved is through the code itself, and as the system only uses the proximity sensor as the main input, it is unable to store much data)
 
-**Procedural - HIGH** (must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently)
+**Procedural - HIGH** 
+(Our system must follow a set of rules that is predetermined by our coding, or else the car washing operation would not be able to function efficiently and autonomously)
 
 4.&nbsp;How does it make use of the new abilities of computers?
 
-How do you make use of computers (abilities) to make process fully automatic? 
+<p align="justify">Based on the definition of a computer, it is an object that is able to take a stimulus, change itself according to specific set of rules. From that, the use of Arduino in our project functions in a similar way as a computer, using input sensors such as the Proximity sensor and output sensors such as the servo motor. 
+In addition, as our main objective of this system was to make it fully autonomous, it is only through the abilities of new computers which can read and write quicker that this process is possible. Older processes would limit the speed and functionality of the system. </p> 
+
 
 5.&nbsp;How does it build off other projects you have seen?
 
