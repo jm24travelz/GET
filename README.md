@@ -11,10 +11,10 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 
 
  
-**Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
+<p align="justify">**Ever wanted to get a car wash done quickly without the need to wait for an attendant?**
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
  The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the cars to wait outside using our signal system outside the washing bay. 
- Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods.
+ Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods.</p>
  
 # Components required
 - 	5 LED Light Module 
@@ -133,18 +133,18 @@ An emergency push button would be situated along the washing bay to ensure ease 
 
 **1.Implementation of Multiple Servo Motors**
 
-Initially we intended to only use 2 servo motors to simulate 4 actions, however through the programming and consultation Dennis, we realized that having a separate motor for each process would allow easier troubleshoot in case of problems while providing us a smoother, cleaner flow in the programming code. 
-Hence, we decided to use 3 separate servo motors to indicate the different processes.(Water, Soap, Scrubbing)
+<p align="justify">Initially we intended to only use 2 servo motors to simulate 4 actions, however through the programming and consultation Dennis, we realized that having a separate motor for each process would allow easier troubleshoot in case of problems while providing us a smoother, cleaner flow in the programming code. 
+Hence, we decided to use 3 separate servo motors to indicate the different processes.(Water, Soap, Scrubbing) </p>
 
    ![servo](https://user-images.githubusercontent.com/44767760/48037758-ce7f3a80-e1a8-11e8-9cf8-6476d9cdb451.jpg)
  
 **2.LED malfunctions**
 
-We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem. 
+<p align="justify">We faced several issues with the LED whereby it did not light up whenever it was programmed to and at times it was lit up dimly. We had to go back to our program to fix the mistakes to ensure that the LED and proximity sensors work together through several troubleshoots. For the dim LED, we tested several other LEDs to ensure that it was not a circuit set-up problem.</p>
 
 **3.Getting the timing right for the servo motor rotations and ensuring that it flows smoothly with all the other processes**
 
-We faced many problems programming the servo motors to move continously and consecutively, and had to constantly edit our program to fix the issue. It was through articles and videos online that we found a way to turn our servo motors using if statements (right) instead of the for loop function (left). 
+<p align="justify">We faced many problems programming the servo motors to move continously and consecutively, and had to constantly edit our program to fix the issue. It was through articles and videos online that we found a way to turn our servo motors using if statements (right) instead of the for loop function (left). </p>
  
    ![coding comparison](https://user-images.githubusercontent.com/44767760/48037826-0ab29b00-e1a9-11e8-94ad-a68fc4b47c8b.jpg)
  
@@ -156,7 +156,7 @@ Initially we could not figure out why our proximity sensor was not working prope
  
 **5.Proximity sensor measurement was inaccurate (Software)**
 
-During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5cm). Hence, we decided to give a range for the different distances. 
+<p align="justify">During the construction of the hardware, we realized that the proximity sensor values fluctuate very often when any object is placed near the sensor. Furthermore, we realized that the sensor only works after a certain distance based on the experiments we did (>5cm). Hence, we decided to give a range for the different distances. </p>
 
 Red: < 10cm
 
@@ -166,19 +166,19 @@ Green: > 15cm
 
   ![proximity sensor settings](https://user-images.githubusercontent.com/44767760/48037792-e9ea4580-e1a8-11e8-9dce-df97283918c8.jpg)
  
-In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time  during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This ensures that the proximity sensor is being calibrated during the initialisation of the program.
+<p align="justify">In addition, the calibration of the Proximity Sensor also posed us several problems.  The sensor would require a certain amount of time  during start up, resulting in the activation of the washing system. Therefore, we added the code as shown below. This ensures that the proximity sensor is being calibrated during the initialisation of the program.</p>
 
   ![proximity sensor calibration](https://user-images.githubusercontent.com/44767760/48037853-261da600-e1a9-11e8-8598-acd4822447a0.jpg)
 
 **6.Incorrect rotation of servos**
 
-Initially our servo was not working properly (instead of moving at an angle it was moving continuously acting like a normal motor). However, we soon realized it was due to our program instead of the hardware itself and used the for function to ensure the motor rotated correctly. 
+<p align="justify">Initially our servo was not working properly (instead of moving at an angle it was moving continuously acting like a normal motor). However, we soon realized it was due to our program instead of the hardware itself and used the for function to ensure the motor rotated correctly. </p>
 
    ![servo motor rotation](https://user-images.githubusercontent.com/44767760/48037868-2fa70e00-e1a9-11e8-8efd-e16bb9444eec.jpg)
  
 **7.Accumulations of Delays in the entire project**
 
-The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 3), the emergency button was able to trigger the entire system to come to a halt. 
+<p align="justify">The accumulation of delays meant that the motors and LED timings would not tally and work together. Furthermore, the emergency push button was unable to work efficiency with the delays put in place. However, once we change the program to allow continuous rotations (as seen in point 3), the emergency button was able to trigger the entire system to come to a halt. </p>
 
 **8.Both washing operations in Stage 1 and Stage 4 clashes**
 
@@ -186,7 +186,7 @@ As shown in the video below, the servo motor is unable to rotate properly at sta
 
 [![](http://img.youtube.com/vi/Tm-8aYyyA2Y/0.jpg)](https://www.youtube.com/watch?v=Tm-8aYyyA2Y&feature=youtu.be "Servo Motor not working")
 
-By adding the code below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. 
+<p align="justify">By adding the code below, we ensured that the washing operation in stage 4 will only be activated when WashStartTime = -1 (Initial condition) when it’s not in use. This ensures that the 2 process will not clash. Initially, the servo was already activated in stage 1, and would disable the washing operation, resulting in servo motor having a “jerky” reaction. </p>
 
 ![servo motor rotation](https://user-images.githubusercontent.com/44767760/48539123-3d6b3a80-e8f1-11e8-9830-e103a05ec725.jpg)
 
