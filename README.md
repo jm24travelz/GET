@@ -6,6 +6,8 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 
 ![final documentation](https://user-images.githubusercontent.com/44767760/48536489-b5356700-e8e9-11e8-92a0-92db50883985.jpg)
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">NUS GET1033 : Autonomous Car Washing System Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jm24travelz.github.io/GET/" property="cc:attributionName" rel="cc:attributionURL">Jonathan Mohan, Chua Hong Huei</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://jm24travelz.github.io/GET/" rel="dct:source">https://jm24travelz.github.io/GET/</a>.
+
 
 # Overview
 
@@ -206,7 +208,7 @@ As shown in the video below, the servo motor is unable to rotate properly at sta
 
 Full Program Code is available to download : [GET Coding.docx](https://github.com/jm24travelz/GET/files/2553369/GET.Coding.docx)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">NUS GET1033 : Autonomous Car Washing System Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jm24travelz.github.io/GET/" property="cc:attributionName" rel="cc:attributionURL">Jonathan Mohan, Chua Hong Huei</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://jm24travelz.github.io/GET/" rel="dct:source">https://jm24travelz.github.io/GET/</a>.
+
 
 # Indivdual Reflection 
 
