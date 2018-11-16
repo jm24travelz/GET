@@ -206,6 +206,8 @@ As shown in the video below, the servo motor is unable to rotate properly at sta
 
 Full Program Code is available to download : [GET Coding.docx](https://github.com/jm24travelz/GET/files/2553369/GET.Coding.docx)
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
 # Indivdual Reflection 
 
 ### Chua Hong Huei(A0168608U) 
@@ -295,7 +297,7 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 
 2.&nbsp;How does our project connect to ideas you have learned in this module?
 
-<p align="justify">Personally, I feel that the most obvious connection would have to be the conversion from Bits to Atoms. The proximity sensor will send out a pulse and based on what it has received, it will be able to gauge the distance between the car and the washing bay. This result would help to trigger the rest of the proceeding car washing operations. It builts on to the application of Physical Computing in week 7 where the lectures and tutorials talked and show about how it is an interactive physical system using software and hardware that has the ability to sense and response to the analog world. </p>
+<p align="justify">Personally, I feel that the most obvious connection would have to be the conversion from Bits to Atoms. This idea could be demonstrated within the project, where the use of “Bits” refers to the detection of distance between the car and the washing bay via the proximity sensor, which sends a pulse. Based on the information received, the result would help to trigger the rest of the proceeding car washing operations. The “Atom” side of the project would demonstrate the physical simulation of the washing process via the 3 servo motors used in the system. In addition, it builts on to the application of Physical Computing in week 7 where the lectures and tutorials talked and show about how it is an interactive physical system using software and hardware that has the ability to sense and response to the analog world.  </p>
 <p align="justify">Furthermore, our project also touches on that aspect using Arduino. Arduino is a popular open source physical computing method consisting of a microcontroller board, sensors and a language which is used for the board’s programming. </p>
 <p align="justify">Another element that was covered in the lectures was Visual Rhetoric. In our project, we applied that using different colours of the LED which were implemented to direct drivers in and out of the washing bay by informing them of the current occupancy. </p>
 
@@ -318,8 +320,9 @@ Another additional concept would be Virtual Reality. By entering the washing bay
 
 4.&nbsp;How does it make use of the new abilities of computers?
 
-<p align="justify">Based on the definition of a computer, it is an object that is able to take a stimulus, change itself according to specific set of rules. From that, the use of Arduino in our project functions in a similar way as a computer, using input sensors such as the Proximity sensor and output sensors such as the servo motor. 
-In addition, as our main objective of this system was to make it fully autonomous, it is only through the abilities of new computers which can read and write quicker that this process is possible. Older processes would limit the speed and functionality of the system. </p> 
+<p align="justify">In the past, abilities of computers were limited, and car washing systems would require additional manpower to operate the entire process. This was a very inefficient and costly process. However, with the advancement of technology, it is possible to incorporate usage of computer devices and sensors into such systems to create a more efficient, user friendly and autonomous system. This new flow reduces the need for excess physical labour around the washing bay. Hence, we decided to use Arduino as our main physical computer along with a proximity sensor (input) to gauge the distance and the LEDs (output based on input from proximity) to inform the driver information regarding the current operation. </p>
+ 
+<p align="justify">Our project also acts like a robot, based on the definition taught in class. A robot can sense, think and act. The functionality of a robot can be seen through our system which functions are based on the input given by the proximity sensor. Only when the proximity sensor is activated with the stop condition, both red LED will light up and the program will kick in. Based on the information provided, the system would proceed to complete its given washing task, following a set of instructions and specific flow programmed by us. </p> 
 
 
 5.&nbsp;How does it build off other projects you have seen?
