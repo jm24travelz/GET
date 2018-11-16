@@ -6,7 +6,7 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
 
 ![final documentation](https://user-images.githubusercontent.com/44767760/48536489-b5356700-e8e9-11e8-92a0-92db50883985.jpg)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">NUS GET1033 : Autonomous Car Washing System Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jm24travelz.github.io/GET/" property="cc:attributionName" rel="cc:attributionURL">Jonathan Mohan, Chua Hong Huei</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://jm24travelz.github.io/GET/" rel="dct:source">https://jm24travelz.github.io/GET/</a>.
+
 
 
 # Overview
@@ -18,6 +18,8 @@ Jonathan Mohan (A0168550B) | Chua Hong Huei (A0168608U)
  Look no further as we will be designing an Autonomous Car Washing System to replace the current systems available at petrol kiosks island wide. 
  The system would automatically detect the arrival of a car and would proceed to go through a set of automatic procedures to wash the car when it is in the washing bay area, while informing the cars to wait outside using our signal system outside the washing bay. 
  Our project’s aim is to reduce manpower and labour cost, while seeking to improve the efficiency during peak periods.</p>
+ 
+ <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">NUS GET1033 : Autonomous Car Washing System Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jm24travelz.github.io/GET/" property="cc:attributionName" rel="cc:attributionURL">Jonathan Mohan, Chua Hong Huei</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://jm24travelz.github.io/GET/" rel="dct:source">https://jm24travelz.github.io/GET/</a>.
  
 # Components required
 - 	5 LED Light Module 
